@@ -1,0 +1,8 @@
+version: '3'
+services:
+  magento2:
+    build: .
+    container_name: magento2_236_php73
+    restart: always
+    ports:
+      - 80:80
